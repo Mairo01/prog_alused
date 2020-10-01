@@ -1,0 +1,5 @@
+Nimi = str(input("Sisestage oma nimi: "))
+LubatudKiirus = int(input('Sisestage suurim lubatud kiirus: '))
+Kiirus = int(input('Sisestage tegelik kiirus: '))
+trahv= min(190, (Kiirus-LubatudKiirus)*3 )
+print(trahv)
