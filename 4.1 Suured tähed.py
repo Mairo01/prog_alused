@@ -1,2 +1,2 @@
-eNimi, pNimi=input('Sisestage oma nimi: ').split()
-print(eNimi.capitalize() +' ' + pNimi.capitalize())
+Nimi=str(input('Sisestage oma nimi: '))
+print(Nimi.title())
